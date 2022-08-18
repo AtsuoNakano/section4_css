@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid blue;
+  .title{
+    margin-right: 20px;
+  }
+  .button{
+    padding: 7px;
+    font-size: 16px;
+    background-color: khaki;
+    border: none;
+    &:hover {
+      background-color: green;
+    }
+  }
+}
